@@ -1,0 +1,41 @@
+.layer-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(
+    hsl(360, 100%, 50%),
+    hsl(315, 100%, 50%),
+    hsl(270, 100%, 50%),
+    hsl(225, 100%, 50%),
+    hsl(180, 100%, 50%),
+    hsl(135, 100%, 50%),
+    hsl(90, 100%, 50%),
+    hsl(45, 100%, 50%),
+    hsl(0, 100%, 50%)
+  );
+  animation: circle 4s linear infinite;
+  height: 100vh;
+}
+
+@keyframes circle {
+  0% {
+    transform: roate(360deg);
+  }
+}
+
+.text {
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.but-text {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.layer-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
