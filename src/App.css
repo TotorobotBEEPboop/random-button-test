@@ -19,7 +19,7 @@
 
 @keyframes circle {
   0% {
-    transform: rotae(360deg);
+    transform: rotate(360deg);
   }
 }
 
