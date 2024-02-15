@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { getRandomBackground } from '../utils';
 
+const NUMBER_OF_COLOURS = 1000;
+
 const Button = () => {
   const [counter, setCounter] = useState(0);
-  const randomBackground = getRandomBackground(1000);
+  const randomBackground = getRandomBackground(NUMBER_OF_COLOURS);
 
   return (
     <div style={{ background: randomBackground }} className={'layer-three'}>
