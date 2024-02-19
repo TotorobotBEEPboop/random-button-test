@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { getRandomBackground } from "../utils";
 
-const NUMBER_OF_COLOURS = 10;
+const NUMBER_OF_COLOURS = 350;
 
 const Button = () => {
   const [counter, setCounter] = useState(0);

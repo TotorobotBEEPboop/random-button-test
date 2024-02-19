@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import "vite/modulepreload-polyfill";
 
 // vite.config.js
 export default defineConfig({
